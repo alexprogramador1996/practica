@@ -137,7 +137,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
 //Scrollview sirve para hacer una barra de desplazamiento vertical
-// la funcion que tiene  me permite ver tdodos los controles que tiene la pantalla
         //y poder dezplazarme
         child: SingleChildScrollView(
           padding: EdgeInsets.all(8.0),
