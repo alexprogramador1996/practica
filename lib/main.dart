@@ -136,8 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-//Scrollview sirve para hacer una barra de desplazamiento vertical
-        //y poder dezplazarme
+//Scrollview sirve para hacer una barra de desplazamiento vertical y poder dezplazarme
         child: SingleChildScrollView(
           padding: EdgeInsets.all(8.0),
           child: Column(
