@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text('Acerca de'),
-          content: Text('Esta aplicación fue creada por Alex.'),
+          content: Text('Esta aplicación fue creada por Alex Aguilar.'),
           actions: [
             TextButton(
               onPressed: () {
