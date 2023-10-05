@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.greenAccent),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Mi primer App por Alex'),
+      home: const MyHomePage(title: 'Promedio de Notas'),
     );
   }
 }
@@ -73,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _pm = (_nota1 + _nota2 + _nota3 + _nota4) / 4;
 
       if (_pm >= 7.0) {
-        _mensaje = 'Aprobado';
+        _mensaje = 'Ha Aprobado';
       } else {
         _mensaje = 'Desaprobado';
       }
